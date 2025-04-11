@@ -132,7 +132,7 @@ with tabs[8]:  # Resume
         st.download_button(
             label="📥 Download Resume",
             data=PDFbyte,
-            file_name="My Resume (3).pdf",
+            file_name="resume.pdf",
             mime="application/pdf"
         )
 
