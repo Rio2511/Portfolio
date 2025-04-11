@@ -120,7 +120,7 @@ with tabs[8]:  # Resume
     st.markdown("### 📄 Resume")
 
     with st.expander("📑 View & Download My Resume"):
-        with open("My Resume (3).pdf", "rb") as pdf_file:
+        with open("resume.pdf", "rb") as pdf_file:
             PDFbyte = pdf_file.read()
 
         base64_pdf = base64.b64encode(PDFbyte).decode("utf-8")
