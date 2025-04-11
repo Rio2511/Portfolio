@@ -24,7 +24,7 @@ st.markdown(f"""
 # ---------------- HEADER ----------------
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("Arkoprovo Gupta.jpg", width=150)  # Add your photo to the project directory
+    st.image("photo.jpg", width=150)  # Add your photo to the project directory
 with col2:
     st.markdown(f"<h1 style='color:{text_color}'>Arkoprovo Gupta</h1>", unsafe_allow_html=True)
     st.markdown(f"<h4 style='color:{text_color}'>Senior SQL Analyst | MBA (Business Analytics & Data Science)</h4>", unsafe_allow_html=True)
